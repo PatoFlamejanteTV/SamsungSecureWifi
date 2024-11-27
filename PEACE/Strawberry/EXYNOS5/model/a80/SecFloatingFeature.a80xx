@@ -1,0 +1,40 @@
+#
+# Feature naming rule
+#
+#       format)
+#       SEC_FLOATING_FEATURE_[Module name]_[Function name]=[Values]
+#
+#       - Feature name must be capital letter.
+#       - Values : BOOLEAN (TRUE/FALSE) or STRING
+#       ex)
+#               Module name - WLAN
+#               Function name - DISABLE_5G
+#               Values - TRUE/FALSE (default : FALSE)
+#
+#       SEC_FLOATING_FEATURE_WLAN_DISABLE_5G=FALSE
+#
+#       ex)
+#               Module name - RIL
+#               Function name - MMS_UAP_TAG_NAME
+#               Values - x-wap-profile
+#
+#       SEC_FLOATING_FEATURE_RIL_MMS_UAP_TAG_NAME="x-wap-profile"
+#
+
+source vendor/samsung/configs/a80_common/SecFloatingFeature.common
+
+# NFC eur
+SEC_FLOATING_FEATURE_NFC_SUPPORT_DEFAULT_AID_ROUTE=TRUE
+SEC_FLOATING_FEATURE_NFC_SUPPORT_NON_AID_SERVICE=TRUE
+
+# FMRadio Floating Feature
+SEC_FLOATING_FEATURE_FMRADIO_CONFIG_CHIP_VENDOR=7
+SEC_FLOATING_FEATURE_FMRADIO_CONFIG_COMMON_RSSI="156"
+SEC_FLOATING_FEATURE_FMRADIO_CONFIG_COMMON_SOFTMUTE_TH="16"
+SEC_FLOATING_FEATURE_FMRADIO_REMOVE_AF_MENU=TRUE
+
+# Dual IMS Common
+SEC_FLOATING_FEATURE_COMMON_CONFIG_DUAL_IMS="DSDS_DI"
+
+# Secure Wi-Fi
+SEC_FLOATING_FEATURE_WLAN_SUPPORT_SECURE_WIFI=TRUE

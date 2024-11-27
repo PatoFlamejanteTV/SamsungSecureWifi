@@ -1,0 +1,38 @@
+#
+# Feature naming rule
+#
+#	format)
+#	SEC_FLOATING_FEATURE_[Module name]_[Function name]=[Values]
+#
+#	- Feature name must be capital letter.
+#	- Values : BOOLEAN (TRUE/FALSE) or STRING
+#	ex)
+#		Module name - WLAN
+#		Function name - DISABLE_5G
+#		Values - TRUE/FALSE (default : FALSE)
+#
+#	SEC_FLOATING_FEATURE_WLAN_DISABLE_5G=FALSE
+#
+#	ex)
+#		Module name - RIL
+#		Function name - MMS_UAP_TAG_NAME
+#		Values - x-wap-profile
+#
+#	SEC_FLOATING_FEATURE_RIL_MMS_UAP_TAG_NAME="x-wap-profile"
+#
+source vendor/samsung/configs/starqlte_common/SecFloatingFeature.common
+
+# Dual IMS Common
+SEC_FLOATING_FEATURE_COMMON_CONFIG_DUAL_IMS="DSDS_DI"
+
+# MODULE - Settings
+SEC_FLOATING_FEATURE_SETTINGS_CONFIG_FCC_ID="A3LSMG9600"
+
+# FM Radio
+SEC_FLOATING_FEATURE_FMRADIO_CONFIG_CHIP_VENDOR="5"
+SEC_FLOATING_FEATURE_FMRADIO_CONFIG_COMMON_RSSI="12"
+SEC_FLOATING_FEATURE_FMRADIO_REMOVE_AF_MENU=TRUE
+SEC_FLOATING_FEATURE_FMRADIO_SUPPORT_RDS=FALSE
+
+# SoundAlive
+SEC_FLOATING_FEATURE_AUDIO_SUPPORT_UHQ_UPSCALER_NOTI_SUGGESTION=TRUE

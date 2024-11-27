@@ -1,0 +1,42 @@
+#
+# Feature naming rule
+#
+#	format)
+#	SEC_FLOATING_FEATURE_[Module name]_[Function name]=[Values]
+#
+#	- Feature name must be capital letter.
+#	- Values : BOOLEAN (TRUE/FALSE) or STRING
+#	ex)
+#		Module name - WLAN
+#		Function name - DISABLE_5G
+#		Values - TRUE/FALSE (default : FALSE)
+#
+#	SEC_FLOATING_FEATURE_WLAN_DISABLE_5G=FALSE
+#
+#	ex)
+#		Module name - RIL
+#		Function name - MMS_UAP_TAG_NAME
+#		Values - x-wap-profile
+#
+#	SEC_FLOATING_FEATURE_RIL_MMS_UAP_TAG_NAME="x-wap-profile"
+#
+source vendor/samsung/configs/starqlte_common/SecFloatingFeature.common
+
+# Settings
+SEC_FLOATING_FEATURE_SETTINGS_SUPPORT_MOTION_PICK_UP_TO_CALL_OUT=FALSE
+SEC_FLOATING_FEATURE_SETTINGS_SUPPORT_MOTION_PALM_TOUCH=FALSE
+SEC_FLOATING_FEATURE_SETTINGS_SUPPORT_MOTION_TRUN_OVER=FALSE
+
+# brand name
+SEC_FLOATING_FEATURE_SETTINGS_CONFIG_BRAND_NAME="SC-02K"
+
+# FCC ID
+SEC_FLOATING_FEATURE_SETTINGS_CONFIG_FCC_ID="A3LSC02K"
+
+# MODULE - Setupwizard
+SEC_FLOATING_FEATURE_SETUPWIZARD_CONFIG_UI_STYLE=""
+
+if [[ "$SEC_FACTORY_BUILD" == true ]]; then
+#MODULE - MOBILETV
+SEC_FLOATING_FEATURE_COMMON_CONFIG_MOBILE_TV="FULLSEG"
+fi

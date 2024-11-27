@@ -1,0 +1,43 @@
+#
+# Feature naming rule
+#
+#       format)
+#       SEC_FLOATING_FEATURE_[Module name]_[Function name]=[Values]
+#
+#       - Feature name must be capital letter.
+#       - Values : BOOLEAN (TRUE/FALSE) or STRING
+#       ex)
+#               Module name - WLAN
+#               Function name - DISABLE_5G
+#               Values - TRUE/FALSE (default : FALSE)
+#
+#       SEC_FLOATING_FEATURE_WLAN_DISABLE_5G=FALSE
+#
+#       ex)
+#               Module name - RIL
+#               Function name - MMS_UAP_TAG_NAME
+#               Values - x-wap-profile
+#
+#       SEC_FLOATING_FEATURE_RIL_MMS_UAP_TAG_NAME="x-wap-profile"
+#
+
+source vendor/samsung/configs/a6lte_common/SecFloatingFeature.common
+
+# Global config for FMRADIO
+SEC_FLOATING_FEATURE_FMRADIO_CONFIG_CHIP_VENDOR=2
+SEC_FLOATING_FEATURE_FMRADIO_CONFIG_COMMON_RSSI="105"
+SEC_FLOATING_FEATURE_FMRADIO_CONFIG_COMMON_SNR="10"
+SEC_FLOATING_FEATURE_FMRADIO_CONFIG_COMMON_CNT_OR_COS="16"
+SEC_FLOATING_FEATURE_FMRADIO_CONFIG_COMMON_AF_THRESH="7"
+SEC_FLOATING_FEATURE_FMRADIO_CONFIG_COMMON_AFVALID_THRESH="12"
+SEC_FLOATING_FEATURE_FMRADIO_REMOVE_AF_MENU=TRUE
+
+# Settings
+SEC_FLOATING_FEATURE_SETTINGS_CONFIG_FCC_ID="A3LSMA600FN"
+SEC_FLOATING_FEATURE_SETTINGS_CONFIG_ELECTRIC_RATED_VALUE="DC 5 V; 1.55 A"
+
+# Secure Wi-Fi
+SEC_FLOATING_FEATURE_WLAN_SUPPORT_SECURE_WIFI=TRUE
+
+# NFC
+SEC_FLOATING_FEATURE_NFC_SUPPORT_DEFAULT_AID_ROUTE=TRUE

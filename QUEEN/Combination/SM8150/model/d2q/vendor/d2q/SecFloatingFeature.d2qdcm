@@ -1,0 +1,37 @@
+#
+# Feature naming rule
+#
+#	format)
+#	SEC_FLOATING_FEATURE_[Module name]_[Function name]=[Values]
+#
+#	- Feature name must be capital letter.
+#	- Values : BOOLEAN (TRUE/FALSE) or STRING
+#	ex)
+#		Module name - WLAN
+#		Function name - DISABLE_5G
+#		Values - TRUE/FALSE (default : FALSE)
+#
+#	SEC_FLOATING_FEATURE_WLAN_DISABLE_5G=FALSE
+#
+#	ex)
+#		Module name - RIL
+#		Function name - MMS_UAP_TAG_NAME
+#		Values - x-wap-profile
+#
+#	SEC_FLOATING_FEATURE_RIL_MMS_UAP_TAG_NAME="x-wap-profile"
+#
+source vendor/samsung/configs/d2q_common/SecFloatingFeature.common
+
+
+# Settings
+SEC_FLOATING_FEATURE_SETTINGS_SUPPORT_MOTION_PICK_UP_TO_CALL_OUT=FALSE
+SEC_FLOATING_FEATURE_SETTINGS_SUPPORT_MOTION_PALM_TOUCH=FALSE
+SEC_FLOATING_FEATURE_SETTINGS_SUPPORT_MOTION_TRUN_OVER=FALSE
+SEC_FLOATING_FEATURE_SETTINGS_CONFIG_FCC_ID="A3LSMN975JPN"
+SEC_FLOATING_FEATURE_SETTINGS_CONFIG_SPEN_FCC_ID="A3LEJPN970"
+
+# Mobile Ad Service 
+#SEC_FLOATING_FEATURE_SETTINGS_SUPPORT_MOBILE_AD=TRUE
+
+# Module - Bixby
+SEC_FLOATING_FEATURE_COMMON_SUPPORT_BIXBY=FALSE

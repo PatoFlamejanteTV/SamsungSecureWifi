@@ -1,0 +1,26 @@
+#
+# Feature naming rule
+#
+#	format)
+#	SEC_FLOATING_FEATURE_[Module name]_[Function name]=[Values]
+#
+#	- Feature name must be capital letter.
+#	- Values : BOOLEAN (TRUE/FALSE) or STRING
+#	ex)
+#		Module name - WLAN
+#		Function name - DISABLE_5G
+#		Values - TRUE/FALSE (default : FALSE)
+#
+#	SEC_FLOATING_FEATURE_WLAN_DISABLE_5G=FALSE
+#
+#	ex)
+#		Module name - RIL
+#		Function name - MMS_UAP_TAG_NAME
+#		Values - x-wap-profile
+#
+#	SEC_FLOATING_FEATURE_RIL_MMS_UAP_TAG_NAME="x-wap-profile"
+#
+source vendor/samsung/configs/gts4llte_common/SecFloatingFeature.common
+
+# Setupwizard UI feature
+SEC_FLOATING_FEATURE_SETUPWIZARD_CONFIG_UI_STYLE="SupportAA"

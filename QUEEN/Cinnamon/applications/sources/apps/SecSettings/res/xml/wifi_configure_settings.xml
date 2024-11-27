@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="wifi_configure_settings_screen"
+    android:title="@string/wifi_menu_advanced_button">
+
+    <PreferenceCategory
+        android:title="@string/wifi_intelligent_wifi_header"
+        android:key="advanced_adaptive_wifi"
+        android:order="1">
+        <!-- android:dependency="enable_wifi" -->
+        <SecSwitchPreferenceScreen
+            android:key="wifi_poor_network_detection"
+            android:title="@string/wifi_switch_to_mobile_data"
+            android:summary="@string/wifi_switch_to_mobile_data_detail"
+            android:fragment="com.samsung.android.settings.wifi.SmartNetworkSwitchSettings" >
+        </SecSwitchPreferenceScreen>
+
+        <SwitchPreferenceCompat
+            android:key="auto_wifi"
+            android:title="@string/wifi_autowifi_title"
+            android:summary="@string/wifi_autowifi_summary"
+            android:persistent="true" />
+
+        <!-- SEC_PRODUCT_FEATURE_WLAN_SUPPORT_MALICIOUS_HOTSPOT_DETECTION_START -->
+        <SecSwitchPreferenceScreen
+            android:key="MobileWIPS"
+            android:title="@string/wifi_mobile_wips"
+            android:summary="@string/wifi_mobile_wips_detail"
+            android:fragment="com.samsung.android.settings.wifi.MobileWIPSsettings" >
+        </SecSwitchPreferenceScreen>
+        <!-- SEC_PRODUCT_FEATURE_WLAN_SUPPORT_MALICIOUS_HOTSPOT_DETECTION_END -->
+
+        <!-- SEC_FLOATING_FEATURE_WIFI_SUPPORT_ADPS -->
+        <SwitchPreferenceCompat
+            android:key="wifi_adps"
+            android:title="@string/wifi_adps_title"
+            android:summary="@string/wifi_adps_summary"
+            android:persistent="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/wifi_network_settings_category"
+        android:key="advanced_network_settings"
+        android:order="2">
+
+        <!-- Secure Wi-Fi Start-->
+        <SecPreference
+            android:key="secure_wifi"
+            android:title="@string/secure_wifi"
+            android:summary="@string/secure_wifi_summary" />
+        <!-- Secure Wi-Fi End-->
+
+        <!-- SEC_START : TAG_CSCFEATURE_COMMON_SUPPORTCOMCASTWIFI -->
+        <SwitchPreferenceCompat
+            android:key="auto_connect_xfinity_wifi"
+            android:title="@string/auto_connect_xfinity_wifi"
+            android:summary="@string/auto_connect_xfinity_wifi_summary"
+            android:persistent="true"/>
+        <!-- SEC_END : TAG_CSCFEATURE_COMMON_SUPPORTCOMCASTWIFI -->
+
+        <!-- SEC_START : CRICKET WIFI MANAGER -->
+        <Preference
+            android:key="cricket_manager"
+            android:title="@string/wifi_cricket_manager_title"
+            android:summary="@string/wifi_cricket_manager_summary"
+            android:persistent="false" />
+        <!-- SEC_END : CRICKET WIFI MANAGER -->
+
+        <!-- Charter Wi-Fi Starts -->
+        <SecSwitchPreference
+            android:key="optimize_charter_wifi_networks"
+            android:title="@string/optimize_charter_wifi_networks"
+            android:summary="@string/optimize_charter_wifi_networks_summary"
+            android:persistent="true"/>
+        <!-- Charter Wi-Fi Ends-->
+
+        <!-- SEC_PRODUCT_FEATURE_WLAN_CONFIG_AUTO_CONNECT_HOTSPOT="ATT" -->
+        <SecSwitchPreference
+            android:key="att_auto_connect"
+            android:title="@string/wifi_att_auto_connect"
+            android:summary="@string/wifi_att_auto_connect_summary"
+            android:persistent="true" />
+
+        <SwitchPreferenceCompat
+            android:key="notify_open_networks"
+            android:title="@string/wifi_notify_open_networks"
+            android:summary="@string/wifi_notify_open_networks_summary"
+            android:persistent="true" />
+
+        <!-- SEC_FLOATING_FEATURE_WLAN_SUPPORT_RECOMMEND_WIFI start-->
+        <SwitchPreferenceCompat
+            android:key="notify_wifi_recommend"
+            android:title="@string/wifi_notify_open_networks"
+            android:summary="@string/wifi_notify_open_networks_summary"
+            android:persistent="true" />
+        <!-- SEC_FLOATING_FEATURE_WLAN_SUPPORT_RECOMMEND_WIFI end-->
+        <!-- China NAL Warning PopUP start-->
+        <SwitchPreferenceCompat
+                android:key="wlan_permission_available"
+                android:title="@string/wlan_permission_available"
+                android:summary="@string/wlan_permission_available_message"
+                android:persistent="true"/>
+        <!-- SEC_PRODUCT_FEATURE_WLAN_SUPPORT_HOTSPOT_20 end-->
+
+        <SwitchPreferenceCompat
+            android:key="show_wifi_popup"
+            android:title="@string/notify_me_available_network"
+            android:summary="@string/notify_me_available_network_summary"
+            android:persistent="true"
+            android:visibility="gone"/>
+
+        <!-- CscFeature_Wifi_EnableMenuConnectionType start-->
+        <ListPreference
+                android:key="wifi_connection_type"
+                android:title="@string/wifi_connect_type_title"
+                android:persistent="false"
+                android:entries="@array/wifi_connect_entries"
+                android:entryValues="@array/wifi_connect_values"/>
+        <!-- CscFeature_Wifi_EnableMenuConnectionType end-->
+
+        <!-- TODO
+        <com.samsung.android.settings.wifi.CMCCWarningDialogPreference
+                android:key="wlan_notify_cmcc"
+                android:persistent="false"
+                android:title="@string/cmcc_warning_dialog_control"
+                android:dialogTitle="@string/cmcc_warning_dialog_control"
+                android:dialogMessage="@string/cmcc_warning_dialog_control_summary"/>
+        -->
+
+        <SwitchPreferenceCompat
+                android:key="wifi_scan_for_free_wlans"
+                android:title="@string/wifi_scan_for_free_wlans_title"
+                android:summary="@string/wifi_scan_for_free_wlans_summary"
+                android:persistent="true" />
+
+        <SecSwitchPreference
+                android:key="tencent_wifi_security_detection"
+                android:title="@string/tencent_wifi_detection_title"
+                android:summary="@string/tencent_wifi_detection_summary"
+                android:persistent="true" />
+
+        <Preference
+            android:key="wifi_network_diagnostics"
+            android:title="@string/wifi_network_diagnostics"
+            android:summary="@string/wifi_network_diagnostics_summary"
+            android:persistent="false" />
+
+        <Preference
+            android:key="wifi_manage_network"
+            android:title="@string/wifi_manage_network_title"
+            android:summary="@string/wifi_manage_network_summary"
+            android:persistent="false" />
+
+        <Preference
+            android:key="wifi_control_history"
+            android:title="@string/wifi_control_history_title"
+            android:summary="@string/wifi_control_history_summary"
+            android:persistent="false" />
+
+         <!-- SEC_PRODUCT_FEATURE_WLAN_SUPPORT_HOTSPOT_20 start-->
+        <SecSwitchPreferenceScreen
+            android:key="wifi_hs20_profile"
+            android:persistent="true"
+            android:title="@string/wifi_hotspot20_enable"
+            android:summary="@string/wifi_hotspot20_summary"
+            android:fragment="com.samsung.android.settings.wifi.Hotspot20Settings"/>
+
+        <Preference
+            android:key="install_credentials"
+            android:title="@string/wifi_install_network_certificates"
+            android:summary="@string/wifi_install_network_credentials_summary"
+            android:persistent="false" />
+
+        <Preference
+            android:key="mac_address"/>
+    </PreferenceCategory>
+</PreferenceScreen>

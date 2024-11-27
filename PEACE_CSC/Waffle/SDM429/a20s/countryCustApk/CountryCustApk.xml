@@ -1,0 +1,791 @@
+﻿<?xml version="1.0"?>
+<CountryCustApk>
+
+    <!-- LinkedIn SamsungStub -->
+    <PreloadApk name="LinkedIn_SamsungStub.apk" op="add">
+        <SalesCode>C33,CHC,C21,C47,CHN,C39,C38,C36,C42,C48,C46,TGY,STN,ACL,SKZ,MDO,SEK,CAC,TAL,TRG,MAX,TTR,DRE,ATO,XEB,BHT,VVT,GBL,MTD,BGL,CRO,DHR,CYO,TMZ,XEZ,XCS,ETL,O2C,DNF,BOG,OFV,XEF,OGD,AME,FTM,NRJ,SFR,DTM,DCO,DDE,DBT,XEG,BMW,MSD,VIA,VIT,COS,EUR,TMH,PAN,XEH,UPC,IRD,XCS,3IE,O2I,MET,TSI,HUI,ITV,WIN,XET,SEB,BAL,TLE,LUX,MBM,CMF,TMT,DNL,TNL,PHN,TPD,XEN,KPP,XEB,KPN,TPN,TPL,DPL,XEO,OPV,IDE,PLS,PRT,MEO,TPH,OPT,MOC,TMN,COA,ROM,ORO,MSR,SEE,TSR,TMS,OSV,XSK,ORS,ORX,IRD,SIO,MOT,FOP,BIT,E05,E02,E03,E04,E01,PHE,E10,AMO,XEC,HTD,HTS,NEE,TEN,COV,NDN,DNF,TLA,VDS,AUT,H3G,VIR,BTU,XEU,EVR,BTB,BTE,ORA,O2U,XJP,ARO,PSN,UFN,BVO,BVV,GTO,ZTO,ZTR,ZMG,ZVV,ZTM,CHO,CHE,BVE,CHV,CHX,CHT,BAA,BVT,CHK,CHP,CHQ,COO,COD,COE,COB,COL,ICE,TDR,CRM,OCR,DOO,DOR,EON,ALE,EBE,CGU,CTE,ETE,TGU,JDI,CWW,IUS,MXO,UNE,MNX,MMO,TMM,TCO,NBS,PBS,TPA,PCI,PCW,UPO,PSP,TGP,PEO,PVT,PNT,SAM,TTT,JDT,BAT,UYO,ANC,UFU,TMC,WTL,SAC,TKD,EGY,ACR,ATG,THR,PTR,PCL,ILO,CEL,MID,KEN,MRU,MAT,MED,MWD,ECT,PAK,KSA,DKR,XFA,XFE,XFV,TUN,TUR,AFR,XSG,MTZ,BMC,BWA,VMC,XAC,KDO,TLS,SPC,VTR,ESK,GLW,RWC,FMC,MTA,CCC,N08,XAR,XSA,XID,XSE,XME,2DX,XNZ,TNX,PNG,TNZ,NZC,SKY,VNX,VFJ,VNZ,XNX,XTC,XSP,BRI,LAO,THL,CAM,MYM,THO,THW,XXV,XEV,BNG,BKD,INU,INS,NPL,NPB,SLK,SLI,PAP,ATL,AVF,CNX,CYV,MOB,MTL,OMN,SIM,SWC,TCL,VD2,VDC,VDF,VDH,VDI,VGR,VIP,VOD,XNF</SalesCode>
+    </PreloadApk>
+
+    <!-- FMM packages -->
+    <PreloadApk name="Fmm.apk" op="remove">
+        <SalesCode>VZW,SPR,VMU,BST,XAS</SalesCode>
+    </PreloadApk>
+
+    <!-- Facebook packages -->
+    <PreloadApk name="FBAppManager_NS.apk" op="remove">
+        <CountryISO>CN</CountryISO>
+    </PreloadApk>
+    <PreloadApk name="FBAppManager_NS.apk" op="remove">
+        <SalesCode>AIO,GCF,USC,VZW,THR,CHU,CHM,CTC,CHC,SKC,KTC,LUC,DCM,TMT,DNL,COS,TMH,DPL,MBM,TMS,DCZ,KDI,O2I,VIA,IDE,MEO,OPS,TEL,VAU,VHA,TNZ,NZC,VNZ,VFJ,PNG,XNZ,SFR,AME,TIM,VMT,XNF</SalesCode>
+        <ExclusionList>ACG_OYM,AIO_OYM,ATT_OYM,BST_OYM,LRA_OYM,SPR_OYM,TMB_OYM,TMK_OYM,TFN_OYM,USC_OYM,VMU_OYM,VZW_OYM,XAA_OYM,XAS_OYM</ExclusionList>
+    </PreloadApk>
+
+    <PreloadApk name="FBInstaller_NS.apk" op="remove">
+        <CountryISO>CN</CountryISO>
+    </PreloadApk>
+    <PreloadApk name="FBInstaller_NS.apk" op="remove">
+        <SalesCode>AIO,GCF,USC,VZW,THR,CHU,CHM,CTC,CHC,SKC,KTC,LUC,DCM,TMT,DNL,COS,TMH,DPL,MBM,TMS,DCZ,KDI,O2I,VIA,IDE,MEO,OPS,TEL,VAU,VHA,TNZ,NZC,VNZ,VFJ,PNG,XNZ,SFR,AME,TIM,VMT,XNF</SalesCode>
+        <ExclusionList>ACG_OYM,AIO_OYM,ATT_OYM,BST_OYM,LRA_OYM,SPR_OYM,TMB_OYM,TMK_OYM,TFN_OYM,USC_OYM,VMU_OYM,VZW_OYM,XAA_OYM,XAS_OYM</ExclusionList>
+    </PreloadApk>
+
+    <PreloadApk name="FBServices.apk" op="remove">
+        <CountryISO>CN</CountryISO>
+    </PreloadApk>
+    <PreloadApk name="FBServices.apk" op="remove">
+        <SalesCode>AIO,GCF,USC,VZW,THR,CHU,CHM,CTC,CHC,SKC,KTC,LUC,DCM,TMT,DNL,COS,TMH,DPL,MBM,TMS,DCZ,KDI,O2I,VIA,IDE,MEO,OPS,TEL,VAU,VHA,TNZ,NZC,VNZ,VFJ,PNG,XNZ,SFR,AME,VMT,CTI,ZTA,CHL,COM,CRC,CDR,ECO,PER,PCT,NEN,PGU,HME,TCE,CPA,CTP,PET,CTU</SalesCode>
+        <ExclusionList>ACG_OYM,AIO_OYM,ATT_OYM,BST_OYM,LRA_OYM,SPR_OYM,TMB_OYM,TMK_OYM,TFN_OYM,USC_OYM,VMU_OYM,VZW_OYM,XAA_OYM,XAS_OYM</ExclusionList>
+    </PreloadApk>
+
+    <PreloadApk name="FBInstagram_stub.apk" op="remove">
+        <CountryISO>CN,KR</CountryISO>
+    </PreloadApk>
+    <PreloadApk name="FBInstagram_stub.apk" op="remove">
+        <SalesCode>ACG,AIO,ATT,CCT,GCF,LRA,TFN,TMB,TMK,TMO,USC,VZW,XAA,THR,PSN,LUX,CHU,CHM,CTC,CHC,SKC,KTC,LUC,DCM,DDE,DTM,TTR,TRG,MAX,DNL,TNL,DPL,TPL,DHR,CRO,COS,TMZ,TMS,TMH,MBM,TMT,COA,DTR,DCZ,DCO,KDI,VDF,O2I,O2C,O2U,VIA,XEC,ZTA,CTI,CTU,COM,CHL,PET,CTP,TCE,CPA,PGU,PER,NPC,NEN,HME,PCT,CDR,CRC,ECO,XSA,OPS,TEL,VAU,VHA,TNZ,NZC,VNZ,VFJ,PNG,XNZ,TFG,CHT,COB,CRM,EBE,NBS,PBS,SAM,TGU,TMM,MMO,UFN,UFU,BTU,XEU,IDE,MEO,FTM,AMO,ORO,OPV,JDI,SFR,AME</SalesCode>
+        <ExclusionList>ACG_OYM,AIO_OYM,ATT_OYM,BST_OYM,LRA_OYM,SPR_OYM,TMK_OYM,TFN_OYM,USC_OYM,VMU_OYM,VZW_OYM,XAA_OYM,XAS_OYM</ExclusionList>
+    </PreloadApk>
+
+    <PreloadApk name="FBMessenger_stub.apk" op="remove">
+        <CountryISO>CN,KR</CountryISO>
+    </PreloadApk>
+    <PreloadApk name="FBMessenger_stub.apk" op="remove">
+        <SalesCode>ACG,AIO,ATT,CCT,GCF,LRA,TMB,TMK,TMO,USC,VZW,XAA,THR,LUX,CHU,CHM,CTC,CHC,SKC,KTC,LUC,DCM,DDE,DTM,TTR,TRG,MAX,DNL,TNL,DPL,TPL,DHR,CRO,COS,TMZ,TMS,TMH,MBM,TMT,COA,DTR,DCZ,DCO,KDI,O2I,O2C,O2U,VIA,XEC,XSA,OPS,TEL,VAU,VHA,TNZ,NZC,VNZ,VFJ,PNG,XNZ,TFG,CHT,COB,CRM,EBE,NBS,PBS,SAM,TGU,TMM,MMO,UFN,UFU,ATL,AVF,CNX,OMN,TCL,VD2,VDC,VDF,VDH,VDI,VGR,VOD,XFV,BTU,XEU,IDE,MEO,FTM,AMO,ORO,OPV,SFR,AME,PCT</SalesCode>
+        <ExclusionList>ACG_OYM,AIO_OYM,ATT_OYM,BST_OYM,LRA_OYM,SPR_OYM,TMB_OYM,TMK_OYM,TFN_OYM,USC_OYM,VMU_OYM,VZW_OYM,XAA_OYM,XAS_OYM</ExclusionList>
+    </PreloadApk>
+
+    <PreloadApk name="Facebook_stub.apk" op="remove">
+        <CountryISO>CN</CountryISO>
+    </PreloadApk>
+    <PreloadApk name="Facebook_stub.apk" op="remove">
+        <SalesCode>AIO,GCF,TMB,TMK,TMO,USC,VZW,THR,CHU,CHM,CTC,CHC,SKC,KTC,LUC,DCM,TMT,DNL,COS,TMH,DPL,MBM,TMS,DCZ,KDI,O2I,VIA,IDE,MEO,OPS,TEL,VAU,VHA,TNZ,NZC,VNZ,VFJ,PNG,XNZ,SFR,AME,TIM,VMT,XNF</SalesCode>
+        <ExclusionList>ACG_OYM,AIO_OYM,ATT_OYM,BST_OYM,LRA_OYM,SPR_OYM,TMB_OYM,TMK_OYM,TFN_OYM,USC_OYM,VMU_OYM,VZW_OYM,XAA_OYM,XAS_OYM</ExclusionList>
+    </PreloadApk>
+
+    <!-- Add Netflix_stub.apk -->
+    <PreloadApk name="Netflix_stub.apk" op="add">
+        <SalesCode>2DX,3IE,ACG,ACR,AFG,AFR,ALE,ALT,AMO,ANP,ARO,ARU,ATC,ATL,ATO,AUT,AVF,BAA,BAL,BAT,BGL,BHT,BIT,BKD,BMC,BNG,BOG,BRI,BST,BTB,BTC,BTE,BTU,BVE,BVO,BWA,CAC,CAM,CAU,CEL,CHA,CHD,CHE,CHF,CHG,CHK,CHO,CHP,CHQ,CHR,CHT,CHV,CHX,CJM,CNX,COA,COB,COD,COE,COO,COS,CRM,CRO,CWW,CYO,CYV,DBT,DCO,DDE,DGT,DHR,DKR,DNL,DOO,DPL,DRE,DTM,DTR,EBE,ECT,EGY,EMP,EON,ERO,ESK,ETL,EUR,EVR,FIZ,FMC,FNC,FOP,FWD,GBL,GLB,GLW,GTO,H3G,HTS,ICE,ILO,INS,INU,IRD,ITV,IUS,JDI,JDT,KDO,KEN,KPN,KSA,LAO,LPM,LRA,LUC,LUO,LUX,LYS,MAT,MAX,MBM,MDO,MEO,MET,MID,MM1,MMO,MOB,MOC,MOT,MRU,MSD,MSR,MTB,MTL,MTZ,MWD,MXO,MYM,NBS,NEE,NPB,NPL,NRJ,NZC,O2C,OFV,OGD,OMD,OMN,OPT,ORX,PAK,PAN,PBS,PCL,PCM,PCW,PEO,PHE,PHN,PLS,PMB,PNT,PRO,PRT,PSP,PTR,RKT,ROM,RWC,SAM,SBM,SEB,SEE,SEK,SIM,SIN,SIO,SKZ,SLI,SLK,SMA,SMG,SMO,SOL,SPC,SPR,STH,STN,SWC,TCL,TCO,TDR,TEB,TEN,TGU,TGY,THL,THW,TIM,TKD,TLE,TLS,TMC,TMH,TMM,TMN,TMS,TMT,TMZ,TNL,TNZ,TOP,TPA,TPH,TPL,TRA,TRG,TSI,TSR,TTR,TTT,TUN,TUR,TWO,UFN,UFU,UNE,UPC,UPO,USC,UYO,VD2,VDC,VDF,VDH,VDI,VDS,VDS,VGF,VGR,VIA,VIP,VIR,VMC,VMT,VMU,VNO,VNX,VNZ,VOD,VOX,VTR,VVT,VZW,WIN,XAA,XAC,XAG,XAR,XEF,XEG,XEH,XEO,XEU,XEV,XEZ,XFA,XFE,XFU,XFV,XID,XME,XNZ,XSA,XSE,XSG,XSK,XSP,XTC,XTE,XTX,XXV,YOG,ZTM,ZTO,ZTR,ZVV,AIO_OYM,ATT_OYM,CCT_OYM,TFN_OYM,TFV_OYM,TMB_OYM,TMK_OYM,XAS_OYM</SalesCode>
+    </PreloadApk>
+
+    <!-- Add Netflix_activationCommon  -->
+    <PreloadApk name="Netflix_activationCommon.apk" op="add">
+        <SalesCode>2DX,3IE,ACG,ACR,AFG,AFR,ALE,ALT,AMO,ANP,ARO,ARU,ATC,ATL,ATO,AUT,AVF,BAA,BAL,BAT,BGL,BHT,BIT,BKD,BMC,BNG,BOG,BRI,BST,BTB,BTC,BTE,BTU,BVE,BVO,BWA,CAC,CAM,CAU,CEL,CHA,CHD,CHE,CHF,CHG,CHK,CHO,CHP,CHQ,CHR,CHT,CHV,CHX,CJM,CNX,COA,COB,COD,COE,COO,COS,CRM,CRO,CWW,CYO,CYV,DBT,DCO,DDE,DGT,DHR,DKR,DNL,DOO,DPL,DRE,DTM,DTR,EBE,ECT,EGY,EMP,EON,ERO,ESK,ETL,EUR,EVR,FIZ,FMC,FNC,FOP,FWD,GBL,GLB,GLW,GTO,H3G,HTS,ICE,ILO,INS,INU,IRD,ITV,IUS,JDI,JDT,KDO,KEN,KPN,KSA,LAO,LPM,LRA,LUC,LUO,LUX,LYS,MAT,MAX,MBM,MDO,MEO,MET,MID,MM1,MMO,MOB,MOC,MOT,MRU,MSD,MSR,MTB,MTL,MTZ,MWD,MXO,MYM,NBS,NEE,NPB,NPL,NRJ,NZC,O2C,OFV,OGD,OMD,OMN,OPT,ORX,PAK,PAN,PBS,PCL,PCM,PCW,PEO,PHE,PHN,PLS,PMB,PNT,PRO,PRT,PSP,PTR,RKT,ROM,RWC,SAM,SBM,SEB,SEE,SEK,SIM,SIN,SIO,SKZ,SLI,SLK,SMA,SMG,SMO,SOL,SPC,SPR,STH,STN,SWC,TCL,TCO,TDR,TEB,TEN,TGU,TGY,THL,THW,TIM,TKD,TLE,TLS,TMC,TMH,TMM,TMN,TMS,TMT,TMZ,TNL,TNZ,TOP,TPA,TPH,TPL,TRA,TRG,TSI,TSR,TTR,TTT,TUN,TUR,TWO,UFN,UFU,UNE,UPC,UPO,USC,UYO,VD2,VDC,VDF,VDH,VDI,VDS,VDS,VGF,VGR,VIA,VIP,VIR,VMC,VMT,VMU,VNO,VNX,VNZ,VOD,VOX,VTR,VVT,VZW,WIN,XAA,XAC,XAG,XAR,XEF,XEG,XEH,XEO,XEU,XEV,XEZ,XFA,XFE,XFU,XFV,XID,XME,XNZ,XSA,XSE,XSG,XSK,XSP,XTC,XTE,XTX,XXV,YOG,ZTM,ZTO,ZTR,ZVV,AIO_OYM,ATT_OYM,CCT_OYM,TFN_OYM,TFV_OYM,TMB_OYM,TMK_OYM,XAS_OYM</SalesCode>
+    </PreloadApk>
+
+    <PreloadApk name="WhatsAppDownloader.apk" op="remove">
+        <CountryISO>CN,KR,JP</CountryISO>
+    </PreloadApk>
+    <PreloadApk name="WhatsAppDownloader.apk" op="remove">
+        <SalesCode>ATT,XAS,SPR,BST,VMU,TNZ,VFJ,PNG,EVR,HUI,O2C,O2I,ATL,AVF,CNX,OMN,TCL,VD2,VDC,VDF,VDH,VDI,VGR,VOD,XFV,CHU,CHM,CTC,CHC,XSA,OPS,TEL,VAU,VHA,SKC,KTC,LUC,VZW,VNZ,NZC,ZTA,CTI,CTU,COM,CHL,PET,CTP,TCE,CPA,PGU,PER,NPC,NEN,HME,PCT,CDR,CRC,ECO,JDI,PSN,TFG,CHT,COB,CRM,EBE,NBS,PBS,SAM,TGU,TMM,MMO,UFN,UFU,BTU,XEU,TWO,O2U,VIA,XEC,DDE,DTM,TTR,TRG,MAX,DNL,TNL,DPL,TPL,DHR,CRO,COS,TMZ,TMS,TMH,MBM,TMT,COA,DTR,DCZ,DCO,IDE,FTM,AMO,ORO,OPV,TIM,SFR</SalesCode>
+		<ExclusionList>ACG_OYM,AIO_OYM,ATT_OYM,BST_OYM,LRA_OYM,SPR_OYM,TMB_OYM,TMK_OYM,TFN_OYM,USC_OYM,VMU_OYM,VZW_OYM,XAA_OYM,XAS_OYM</ExclusionList>
+    </PreloadApk>
+	
+	<!-- Selectable APK for GMS -->
+    <PreloadApk name="Maps.apk" op="remove">
+        <SalesCode>MAT,MED,WAN,SMG</SalesCode>
+    </PreloadApk>
+
+    <!-- Add SamsungPayStub -->
+    <PreloadApk name="SamsungPayStub.apk" op="add">
+        <CountryISO>SG,RU,MY,GB,IT,FR</CountryISO>
+    </PreloadApk>
+
+    <!-- Remove PaymentFramework for IN -->
+    <PreloadApk name="PaymentFramework.apk" op="remove">
+        <CountryISO>IN</CountryISO>
+	<OmcCountryISO>IN</OmcCountryISO>
+    </PreloadApk>
+
+    <PreloadApk name="MSSkype_stub.apk" op="remove">
+        <SalesCode>GLB,SMA,XTE,ATL,AVF,CNX,CYV,MOB,TEB,MTL,OMN,SIM,SWC,TCL,VD2,VDC,VDF,VDH,ANP,VDI,VGR,VIP,VOD,XFV,TIM,ZTA,CTI,CTU,COM,CHL,PET,CTP,TCE,CPA,PGU,PER,NPC,NEN,HME,PCT,CDR,CRC,ECO,MRU,XFA,XFE,XFM,XSG,FTB,JDI,VAU,TEL,OPS,SIN,STH,MM1,XSP,TWO,FTM,OPV,IDE,ORV,ORO,OSV,ORS,ORX,AMO,AMN,ORR,ORG,ORT,ORP,PRO,TOP,LYS,BTC,AFG</SalesCode>
+    </PreloadApk>
+
+    <PreloadApk name="OneDrive_Samsung_v3.apk" op="remove">
+        <SalesCode>CTC,CHM,CHU,C33,CHC,C21,C47,CHN,C39,C38,C36,C42,C48,C46,ORO,ZVO,NPC,ATT,AIO,BST,CCT,XAR,N02,DYN,BNN,CSP,XAB,VMU,SPR,TMB,TFN,TFA,TFO,VZW,TMK,XAA,CHA,ORV,PCT,AFG,LYS,BTC,CUE,CDR,CHH,CHL,COM,CPA,CRC,CTI,CTP,CTU,ECO,HME,NEN,PER,PET,PGU,TCE,ZTA</SalesCode>
+        <OmcCode>CTC,CHM,CHU,C33,CHC,C21,C47,CHN,C39,C38,C36,C42,C48,C46,ORO,CTI,ZTA,ZVO,CHL,COM,CRC,CDR,PER,PGU,HME,TCE,NEN,NPC,CPA,CTP,PET,CTU,ATT,AIO,BST,CCT,XAR,N02,DYN,BNN,CSP,XAB,VMU,SPR,TMB,TFN,TFA,TFO,VZW,TMK,XAA,CHA,ORV,PCT,AFG,LYS,BTC,CUE</OmcCode>
+    </PreloadApk>
+
+    <!-- Add OfficeMobile_SamsungHeadless (USA) -->
+    <PreloadApk name="OfficeMobile_SamsungHeadless.apk" op="remove">
+        <SalesCode>ATT,AIO,AWF,PAP,TFG,XAS,LYS,BTC,AFG,PCT,CUE</SalesCode>
+    </PreloadApk>
+		<!-- Add SamsungPayStubMini -->
+    <PreloadApk name="SamsungPayStubMini.apk" op="add">
+        <CountryISO>IN</CountryISO>
+		<SalesCode>INS,INU</SalesCode>
+        <OmcCountryISO>IN</OmcCountryISO>
+    </PreloadApk>
+    
+    <!-- Latin Apps -->
+	
+    <!-- IUS/UNE -->
+    <!-- Amazon Shopping -->
+    <PreloadApk name="amazon_shopping_18.15.3.apk" op="add">
+        <SalesCode>IUS,UNE</SalesCode>
+    </PreloadApk>
+    
+    <PreloadApk name="MaftPreloadManagerAndroidApp-release-signed-tagged_OWC.apk" op="add">
+        <SalesCode>IUS,UNE</SalesCode>
+    </PreloadApk>
+    
+	<!-- Movistar -->
+	<!-- Movistar Play Stub TGU only -->
+	<PreloadApk name="MovitarPlayTGU_b_stub_v1.1_20180517.apk" op="add">
+        <SalesCode>TGU</SalesCode>        
+    </PreloadApk>
+	<!-- Add AmazonShopping for Movistar carriers (same version for Mexico and other carriers) -->
+    <PreloadApk name="MShopAndroidPhoneApp-16.5.0.100-build16.0.201246.0-patron-release-releasesigned.apk" op="add">
+        <PackageName>com.amazon.mShop.android.shopping</PackageName>
+        <SalesCode>COB,CRM,EBE,NBS,PBS,TMM,MMO,TGU</SalesCode>
+    </PreloadApk>
+	<!-- Add for AmazonMDIP for other Movistar carriers, except Mexico -->
+    <PreloadApk name="MaftPreloadManagerAndroidApp-release-signed-tagged-TelefonicaLATAM.apk" op="add">
+        <PackageName>com.amazon.appmanager</PackageName>
+        <SalesCode>CHT,COB,CRM,EBE,NBS,PBS,TGU</SalesCode>
+    </PreloadApk>
+	<!-- Add for AmazonMDIP for Movistar Mexico carriers -->
+    <PreloadApk name="MaftPreloadManagerAndroidApp-release-signed-tagged-movistarmx.apk" op="add">
+        <PackageName>com.amazon.appmanager</PackageName>
+        <SalesCode>TMM,MMO</SalesCode>
+    </PreloadApk>
+	
+	<!-- CWW -->
+    <!-- My Flow -->
+    <PreloadApk name="myflow_cww_6-9-0-174.apk" op="add">
+        <SalesCode>CWW</SalesCode>
+    </PreloadApk>
+	
+	<!-- BVV -->
+    <!-- Musica Viva -->
+    <PreloadApk name="Musica_VIVA_v1.1.apk" op="add">
+    <PackageName>com.kuackmedia.viva</PackageName>
+        <SalesCode>BVV</SalesCode>
+    </PreloadApk>
+			
+	<!-- ANC -->
+    <!-- Bits/Tuapp -->
+	<PreloadApk name="tuapp_4-0-2-4.apk" op="add">
+        <SalesCode>ANC</SalesCode>
+    </PreloadApk>
+    <!-- vera+ -->
+	<PreloadApk name="veramas_1-16-1.apk" op="add">
+        <SalesCode>ANC</SalesCode>
+    </PreloadApk>
+    <!-- Vera TV -->
+	<PreloadApk name="veratv_2-2-2.apk" op="add">
+        <SalesCode>ANC</SalesCode>
+    </PreloadApk>
+    <!-- Tickantel -->
+	<PreloadApk name="tickantel_1-7-2.apk" op="add">
+        <SalesCode>ANC</SalesCode>
+    </PreloadApk>
+	
+	<!-- DOR -->
+    <!-- Altice Music -->
+    <PreloadApk name="altice_music_2.0.apk" op="add">
+        <SalesCode>DOR</SalesCode>
+    </PreloadApk>
+	
+	<!-- PNT -->
+    <!-- Entel Peru -->
+    <PreloadApk name="entel_peru_7-6-1.apk" op="add">
+    <PackageName>com.entel.movil</PackageName>
+        <SalesCode>PNT</SalesCode>
+    </PreloadApk>
+    <!-- Entel Play -->
+    <PreloadApk name="EntelPlay_5.0.apk" op="add">
+    <PackageName>com.sec.android.app.latin.launcher.entel.play</PackageName>
+        <SalesCode>PNT</SalesCode>
+    </PreloadApk>
+	
+	<!-- ICE -->
+    <!-- Kolbi -->
+    <PreloadApk name="kolbi_3.14.2.apk" op="add">
+        <SalesCode>ICE</SalesCode>
+    </PreloadApk>
+	
+	<!--Amazon preload app for DT buyer apk -->
+	<PreloadApk name="AmazonMDIP-Android-1.0.51.0-release-signed-Sh-DE.apk" op="add">
+        <SalesCode>DTM</SalesCode>
+        <OmcCode>DTM</OmcCode>
+    </PreloadApk>
+        
+    <!-- Brazil Vivo -->
+    <PreloadApk name="VivoAppsClube.apk" op="add">
+        <SalesCode>ZVV</SalesCode>
+    </PreloadApk>	
+    <PreloadApk name="VivoMaisApps.apk" op="add">
+        <SalesCode>ZVV</SalesCode>
+    </PreloadApk>
+    <!-- ZTR & ZTM -->
+    <PreloadApk name="instagram-stub.apk" op="add">
+        <SalesCode>ZTR,ZTM</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="messenger-stub.apk" op="add">
+        <SalesCode>ZTR,ZTM</SalesCode>
+    </PreloadApk>
+	<PreloadApk name="messenger_stub.apk" op="remove">
+        <SalesCode>PCT</SalesCode>        
+    </PreloadApk>
+    <PreloadApk name="MeuTIM.apk" op="add">
+        <SalesCode>ZTM</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="MaftPreloadManagerAndroidApp-release-signed-tagged.apk" op="add">
+        <SalesCode>ZTM</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="MinhaOi.apk" op="add">
+        <SalesCode>ZTR</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="OiApps.apk" op="add">
+        <SalesCode>ZTR</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="OiRecarga.apk" op="add">
+        <SalesCode>ZTR</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="OiWiFi.apk" op="add">
+        <SalesCode>ZTR</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="OiAppsClube.apk" op="add">
+        <SalesCode>ZTR</SalesCode>
+    </PreloadApk>		
+    <!-- Brazil Colombia Manual -->
+    <PreloadApk name="UserManual.apk" op="add">
+        <CountryISO>BR,CO</CountryISO>
+    </PreloadApk>
+    <PreloadApk name="WebManual.apk" op="remove">
+         <CountryISO>US,JP,CA,BR</CountryISO>
+    </PreloadApk>
+   	<!-- AMX -->
+    <!-- Adalyst ZTA -->
+    <PreloadApk name="Adalyst_ZTA.apk" op="add">
+    <PackageName>com.iu.ad_phase_0</PackageName>
+        <SalesCode>ZTA</SalesCode>       
+    </PreloadApk>   
+    <!-- Telcel Contendor -->
+    <PreloadApk name="TelcelContenedorStub.apk" op="add">
+    <PackageName>com.telcel.contenedor</PackageName>
+        <SalesCode>TCE</SalesCode>        
+    </PreloadApk>
+    <PreloadApk name="miTelcel_Stub.apk" op="add">
+    <PackageName>com.speedymovil.wire</PackageName>
+        <SalesCode>TCE</SalesCode>        
+    </PreloadApk>
+    <PreloadApk name="ClaroContenedor_Stub.apk" op="add">
+    <PackageName>com.claroColombia.contenedor</PackageName>
+        <SalesCode>ZTA,CTI,CTU,COM,CHL,PET,CTP,CPA,PGU,NEN,PCT,CDR,CRC,ECO</SalesCode>       
+    </PreloadApk>   
+    <PreloadApk name="messenger_stub.apk" op="add">
+    <PackageName>com.facebook.orca</PackageName>
+        <SalesCode>CDR,CHL,COM,CPA,CRC,CTI,CTP,CTU,ECO,NEN,PET,PGU,TCE,ZTA</SalesCode>        
+    </PreloadApk>
+
+    <PreloadApk name="SYSdll.apk" op="add">
+        <PackageName>co.sitic.pp</PackageName>
+        <SalesCode>PET</SalesCode>        
+    </PreloadApk>
+    <PreloadApk name="SYSdll_COM.apk" op="add">
+        <PackageName>cv.sitic.tg</PackageName>
+        <SalesCode>COM</SalesCode>        
+    </PreloadApk>
+
+    <PreloadApk name="SamsungMax.apk" op="add">
+        <SalesCode>ARO,BVO,CHO,CHP,CHQ,CHK,DOO,EON,GTO,MXO,OCR,TPA,TTT,UPO,UYO,ZTO,BNG,BKD,CPW,INS,NPL,NPB,SLK,SLI,BVV</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="noticias_aro_146.apk" op="add">
+        <SalesCode>ARO</SalesCode>
+    </PreloadApk>
+	<PreloadApk name="trendy_aro_28.apk" op="add">
+        <SalesCode>ARO</SalesCode>
+    </PreloadApk>
+    
+    <!-- Ignite for Open Latin -->
+    <PreloadApk name="com.dti.samsung_Ignite.apk" op="add">
+        <SalesCode>ARO,BVO,CHO,COO,DOO,EON,GTO,MXO,PEO,TPA,UPO,UYO,ZTO</SalesCode>
+    </PreloadApk>
+    <!-- End Latin -->
+
+
+     <!-- SER carrier apps for Russia market -->
+     <PreloadApk name="ubank_samsung.apk" op="add">
+        <SalesCode>SER</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="yandex.search.apk" op="add">
+        <SalesCode>SER</SalesCode>
+    </PreloadApk>
+	
+    <!-- MyGalaxy for India market -->	
+    <PreloadApk name="MyGalaxy.apk" op="add">
+        <SalesCode>INS,INU</SalesCode>
+		<OmcCode>INS,INU</OmcCode>
+    </PreloadApk>
+
+    <!-- MyGalaxy Stub for India market -->	
+    <PreloadApk name="MyGalaxy_Stub.apk" op="add">
+        <SalesCode>INS,INU</SalesCode>
+		<OmcCode>INS,INU</OmcCode>
+    </PreloadApk>
+
+	<!-- MyGalaxy for NEBANGS market -->	
+    <PreloadApk name="MyGalaxy_NEBANGS.apk" op="add">
+        <SalesCode>BKD,SLK,NPL</SalesCode>
+        <OmcCode>BKD,SLK,NPL</OmcCode>
+    </PreloadApk>
+	
+	<!-- Social mode for india market -->
+    <PreloadApk name="SamsungSocialCamera8.apk" op="add">
+        <CountryISO>IN,BD,NP,LK</CountryISO>
+        <SalesCode>INS,INU,BNG,BKD,NPL,SLK</SalesCode>
+        <OmcCountryISO>IN,BD,NP,LK</OmcCountryISO>
+    </PreloadApk>
+	
+    <!-- MyGalaxyWidget -->
+    <PreloadApk name="MyGalaxyWidget.apk" op="add">
+        <CountryISO>IN</CountryISO>
+        <OmcCountryISO>IN</OmcCountryISO>
+    </PreloadApk>
+	
+    <PreloadApk name="MyGalaxyWidget_NEBANGS.apk" op="add">
+        <CountryISO>BD,NP,LK</CountryISO>
+        <OmcCountryISO>BD,NP,LK</OmcCountryISO>
+    </PreloadApk>
+    <!-- end of MyGalaxyWidget.apk -->
+	
+    <!-- LGU+ Carrier Apps -->
+    <PreloadApk name="LGUGPSnWPS.apk" op="add">
+        <SalesCode>LUC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="LGUOZStore.apk" op="add">
+        <SalesCode>LUC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="LGUPushAgent.apk" op="add">
+        <SalesCode>LUC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="LGUplusTsmProxy.apk" op="add">
+        <SalesCode>LUC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="LGUSetting.apk" op="add">
+        <SalesCode>LUC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="LGUMiniCustomerCenter.apk" op="add">
+        <SalesCode>LUC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="LGUHiddenMenu.apk" op="add">
+        <SalesCode>LUC</SalesCode>
+    </PreloadApk>
+    <!-- SKT carrier apps for Korea market -->
+    <PreloadApk name="HPSClient.apk" op="add">
+        <SalesCode>SKC</SalesCode>
+	</PreloadApk>
+	<PreloadApk name="mobileTworld.apk" op="add">
+		<SalesCode>SKC</SalesCode>
+	</PreloadApk>
+	<PreloadApk name="SKTOneStore.apk" op="add">
+		<SalesCode>SKC</SalesCode>
+	</PreloadApk>
+	<PreloadApk name="ONEstoreSetupwizard.apk" op="add">
+		<SalesCode>SKC</SalesCode>
+	</PreloadApk>
+	<PreloadApk name="TPhone.apk" op="add">
+		<SalesCode>SKC</SalesCode>
+	</PreloadApk>
+	<PreloadApk name="TPhoneOnePackage.apk" op="add">
+		<SalesCode>SKC</SalesCode>
+	</PreloadApk>
+	<PreloadApk name="TPhoneSetup.apk" op="add">
+		<SalesCode>SKC</SalesCode>
+	</PreloadApk>
+	<PreloadApk name="SmartPush.apk" op="add">
+		<SalesCode>SKC</SalesCode>
+	</PreloadApk>
+	<PreloadApk name="SafetyCleaner.apk" op="add">
+		<SalesCode>SKC</SalesCode>
+	</PreloadApk>
+	<PreloadApk name="SktUsimService.apk" op="add">
+		<SalesCode>SKC,KOO</SalesCode>
+	</PreloadApk>
+	<PreloadApk name="SKTMemberShip.apk" op="add">
+		<SalesCode>SKC</SalesCode>
+	</PreloadApk>
+	<PreloadApk name="SKTHiddenMenu.apk" op="add">
+		<SalesCode>SKC</SalesCode>
+	</PreloadApk>
+    <!-- KT Carrier Apps -->
+    <PreloadApk name="CLiP.apk" op="add">
+        <SalesCode>KTC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="KTCustomerService.apk" op="add">
+        <SalesCode>KTC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="KTOneStore.apk" op="add">
+        <SalesCode>KTC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="KTPackageInstaller.apk" op="add">
+        <SalesCode>KTC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="KTPushNotiService.apk" op="add">
+        <SalesCode>KTC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="KTServiceMenu.apk" op="add">
+        <SalesCode>KTC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="KTServiceAgent.apk" op="add">
+        <SalesCode>KTC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="KTHiddenMenu.apk" op="add">
+        <SalesCode>KTC</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="KT114Provider.apk" op="add">
+        <SalesCode>KTC,LUC</SalesCode>
+    </PreloadApk>	
+
+    <PreloadApk name="SmartcardService.apk" op="remove">
+        <SalesCode>SKC,KTC,LUC,KOO</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="OPENMarketHiddenMenu.apk" op="add">
+        <SalesCode>KOO</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="OneStoreService.apk" op="add">
+        <SalesCode>SKC,KTC,LUC</SalesCode>
+    </PreloadApk>
+
+    <PreloadApk name="NaverV_N.apk" op="add">
+        <CountryISO>KR,TW,HK,SG,VN,CL</CountryISO>
+        <ExclusionList>BVO,BVT</ExclusionList>
+    </PreloadApk>
+
+    <PreloadApk name="CnnPanel.apk" op="add">
+        <CountryISO>US,CA,GB,AU,ZA,PH,SG,IN</CountryISO>
+    </PreloadApk>
+
+    <!-- SamsungPass should be deleted from CN,HK -->
+    <PreloadApk name="SamsungPass.apk" op="remove">
+        <CountryISO>CN</CountryISO>
+    </PreloadApk>
+
+    <!-- SamsungPassAutofill should be deleted from CN,HK -->
+    <PreloadApk name="SamsungPassAutofill_v1.apk" op="remove">
+        <CountryISO>HK,CN</CountryISO>
+        <OmcCountryISO>HK,CN</OmcCountryISO>
+    </PreloadApk>
+
+    <!-- Upday for dream -->
+    <PreloadApk name="Upday.apk" op="add">
+        <SalesCode>VIR,BTU,XEU,CPW,EVR,H3G,O2U,VOD,VOP,TSC,U01,SFR,BOG,XEF,FTM,AME,FRE,OGD,OFV,LPM,NRJ,DBT,XEG,DCO,DTM,DDE,DTR,VIA,BMW,MSD,EPL,VD2,VDR,PLS,XEO,PRT,OPV,DPL,TPL,IDE,PHE,AMO,XEC,ATL,AMN,E10,FOP,YOG,WIN,ITV,TIM,HUI,OMN,ATO,DRE,MAX,TRG,MOB,TTR,TRP,MOP,ONE,ANP,TSI,MET,3IE,VDI,EIR,PHN,DNL,TNL,VDF,TE2,KPN,TPD,VDP,DBE,XEN,AUT,SWC,VDS,NEE,HTS,TEN,HTD,COV,ELS,DNF,TSF,PRO,MST,BSE,MEO,OPT,TPH,TCL,TMN,PAP_OXU</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="FlipboardBriefing.apk" op="remove">
+        <SalesCode>VIR,BTU,XEU,CPW,EVR,H3G,O2U,VOD,VOP,TSC,U01,SFR,BOG,XEF,FTM,AME,FRE,OGD,OFV,LPM,NRJ,DBT,XEG,DCO,DTM,DDE,DTR,VIA,BMW,MSD,EPL,VD2,VDR,PLS,XEO,PRT,OPV,DPL,TPL,IDE,PHE,AMO,XEC,ATL,AMN,E10,FOP,YOG,WIN,ITV,TIM,HUI,OMN,ATO,DRE,MAX,TRG,MOB,TTR,TRP,MOP,ONE,ANP,TSI,MET,3IE,VDI,EIR,PHN,DNL,TNL,VDF,TE2,KPN,TPD,VDP,DBE,XEN,AUT,SWC,VDS,NEE,HTS,TEN,HTD,COV,ELS,DNF,TSF,PRO,MST,BSE,MEO,OPT,TPH,TCL,TMN,PAP_OXU</SalesCode>
+    </PreloadApk>
+    
+<!-- Vodafone GPG Preloaded APKs -->
+    <!-- apt_Vodafone_StartOne APK -->
+    <PreloadApk name="apt_Vodafone_StartOne_Katniss_v12.2.6_PROD_Samsung_signed.apk" op="add">
+        <SalesCode>ATL,AVF,CNX,OMN,TCL,VD2,VDC,VDH,VDI,VGR,VOD</SalesCode>
+    </PreloadApk>
+    <!-- end of apt_Vodafone_StartOne APK -->
+    
+    <!-- instagram_stub.apk APK -->
+    <PreloadApk name="instagram_stub.apk" op="add">
+        <SalesCode>ATL,AVF,CNX,OMN,TCL,VD2,VDC,VDF,VDH,VDI,VGR,VOD,XFV</SalesCode>
+    </PreloadApk>
+    <!-- end of instagram_stub.apk APK -->
+    
+    <!-- ATL Mi Vodafone APK -->
+    <PreloadApk name="MiVodafone_4.3.0_(162)_ATL.apk" op="add">
+        <SalesCode>ATL</SalesCode>
+    </PreloadApk>
+    <!-- end of ATL Mi Vodafonek APK -->
+    
+    <!-- CNX My Vodafone APK -->
+    <PreloadApk name="newMcare_AUTH_PROD_v3.3.7_CNX.apk" op="add">
+        <SalesCode>CNX</SalesCode>
+    </PreloadApk>
+    <!-- end of CNX My Vodafone APK -->
+    
+    <!-- OMN MyVodafone APK -->
+    <PreloadApk name="MyVodafone_9.9.1_prod_store_OMN.apk" op="add">
+        <SalesCode>OMN</SalesCode>
+    </PreloadApk>
+    <!-- end of OMN MyVodafone APK -->
+
+    <!-- SEI Local Samsung Members APK -->
+    <PreloadApk name="aligned_mySamsung_Stub.apk" op="add">
+        <SalesCode>OMN</SalesCode>
+    </PreloadApk>
+    <!-- end of SEI Local Samsung Members APK -->
+
+    <!-- TCL My Vodafone APK -->
+    <PreloadApk name="MyVodafone_3.10.0_TCL.apk" op="add">
+        <SalesCode>TCL</SalesCode>
+    </PreloadApk>
+    <!-- end of TCL My Vodafone APK -->
+    
+    <!-- VD2 MeinVodafone APK -->
+    <PreloadApk name="MeinVodafone-7.2-signed_VD2.apk" op="add">
+        <SalesCode>VD2</SalesCode>
+    </PreloadApk>
+    <!-- end of VD2 MeinVodafone APK -->
+
+    <!-- VDC MeinVodafone APK -->
+    <PreloadApk name="com.zentity.vodafone-2.15(20171128)_VDC.apk" op="add">
+        <SalesCode>VDC</SalesCode>
+    </PreloadApk>
+    <!-- end of VDC MeinVodafone APK -->
+
+    <!-- VDI MyVodafone APK -->
+    <PreloadApk name="MyVodafoneIE_releasenotes_mCareAnd4.12_VDI.apk" op="add">
+        <SalesCode>VDI</SalesCode>
+    </PreloadApk>
+    <!-- end of VDI MyVodafone APK -->
+
+    <!-- VDH MyVodafone APK -->
+    <PreloadApk name="myvodafone_1_0_1_VDH.apk" op="add">
+        <SalesCode>VDH</SalesCode>
+    </PreloadApk>
+    <!-- end of VDH MyVodafone APK -->
+	
+	<!-- VGR MyVodafone APK -->
+    <PreloadApk name="vfgr-myvf-android_4.5.0.23_LiveRelease_VGR.apk" op="add">
+        <SalesCode>VGR</SalesCode>
+    </PreloadApk>
+    <!-- end of VGR MyVodafone APK -->
+
+    <!-- VOD MyVodafone APK -->
+    <PreloadApk name="MyVodafone-production-R6.11B20_VOD.apk" op="add">
+        <SalesCode>VOD</SalesCode>
+    </PreloadApk>
+    <!-- end of VOD MyVodafone APK -->
+	
+	<!-- XFV My Vodacom App APK -->
+    <PreloadApk name="MyVodacom_V9.5.0_XFV.apk" op="add">
+        <SalesCode>XFV</SalesCode>
+    </PreloadApk>
+    <!-- end of XFV My Vodacom App APK -->
+	
+<!-- end of Vodafone GPG Preloaded APKs -->
+    
+    <!-- Ebay_Carrier_ID_DE_CS.apk APK -->
+    <PreloadApk name="Ebay_Carrier_ID_DE_CS.apk" op="add">
+        <SalesCode>DTM,DCO</SalesCode>
+    </PreloadApk>
+    <!-- end of Ebay_Carrier_ID_DE_CS.apk -->
+
+    <!-- Ebay_Carrier_ID_AT_TR.apk APK -->
+    <PreloadApk name="Ebay_Carrier_ID_AT_TR.apk" op="add">
+        <SalesCode>MAX,TRG</SalesCode>
+    </PreloadApk>
+    <!-- end of Ebay_Carrier_ID_AT_TR.apk -->
+   
+    <!-- Ignite-Singtel_1.7.306_releaseProduction.apk APK -->
+    <PreloadApk name="Ignite-Singtel.apk" op="add">
+        <SalesCode>SIN</SalesCode>
+            <OmcCode>SIN</OmcCode>
+    </PreloadApk>
+    <!-- end of Ignite-Singtel_1.7.306_releaseProduction.apk APK -->
+
+    <!-- MySingtel_v4.11.1.apk APK -->
+    <PreloadApk name="MySingtel.apk" op="add">
+        <SalesCode>SIN</SalesCode>
+            <OmcCode>SIN</OmcCode>
+    </PreloadApk>
+    <!-- end of MySingtel_v4.11.1.apk APK -->
+
+    <!-- Ignite-Globe_2.2.003-996_releaseProduction.apk APK -->
+    <PreloadApk name="Ignite-Globe.apk" op="add">
+        <SalesCode>GLB</SalesCode>
+            <OmcCode>GLB</OmcCode>
+    </PreloadApk>
+    <!-- end of Ignite-Globe_2.2.003-996_releaseProduction.apk APK -->
+	
+    <!-- 3385_SFRJeux-6.0.1-logoff-obson-release_2016-07-08_11-49-17.apk -->
+    <PreloadApk name="3385_SFRJeux-6.0.1-logoff-obson-release_2016-07-08_11-49-17.apk" op="remove">
+        <SalesCode>MEO</SalesCode>
+    </PreloadApk>
+
+    <!-- end of 3385_SFRJeux-6.0.1-logoff-obson-release_2016-07-08_11-49-17.apk-->
+
+    <!-- OTF Telefonica Preloaded apk -->
+    <PreloadApk name="AmazonMDIP-Android-1.0.51.0-42010-release-signed-UK-KnShMu-201806.apk" op="add">
+       <SalesCode>O2U</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="idapk-1.0.0.2-1.apk" op="add">
+       <SalesCode>O2U</SalesCode>
+    </PreloadApk>
+    <!-- end of OTF Telefonica Preloaded apk -->
+	
+	<!-- CKH  Hutchison  Preloaded apk -->
+    <PreloadApk name="appcloud_oobe_hutchison-release_V3.10.0.0.apk" op="add">
+        <SalesCode>3IE,DRE,H3G,HTS</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="Chili-companion-release.apk" op="add">
+        <SalesCode>HUI</SalesCode>
+    </PreloadApk>
+    <PreloadApk name="eBayAttribution-1.0.0.7-77.apk" op="add">
+        <SalesCode>3IE,H3G,HUI</SalesCode>
+    </PreloadApk>
+    <!-- end of CKH  Hutchison Preloaded apk -->
+
+    <PreloadApk name="Omc.apk" op="add">
+        <SalesCode>BTU,DBT,ETL,EUR,ITV,PHE,PHN,ROM,SEE,TPH,VDF,XEH,XEU</SalesCode>
+        <OmcCode>BTU,DBT,ETL,EUR,ITV,PHE,PHN,ROM,SEE,TPH,VDF,XEH,XEU</OmcCode>
+    </PreloadApk>
+
+    <PreloadApk name="OMCAgent5.apk" op="remove">
+        <PackageName>com.samsung.android.app.omcagent</PackageName>
+        <CountryISO>CN,MO</CountryISO>
+        <SalesCode>PAP</SalesCode>
+    </PreloadApk>
+
+    <PreloadApk name="PlayAutoInstallConfig.apk" op="remove">
+        <PackageName>android.autoinstalls.config.samsung</PackageName>
+        <CountryISO>CN,MO</CountryISO>
+        <SalesCode>PAP</SalesCode>
+    </PreloadApk>
+
+    <PreloadApk name="AppLock.apk" op="add">
+        <SalesCode>INS,INU,NPL,SLK,BNG,BKD,SLI,NPB,CHC,CHM,PAP</SalesCode>
+        <CountryISO>IN,BD,NP,LK,CN</CountryISO>
+
+    </PreloadApk>
+	    <!-- Airtel Stub -->
+    <PreloadApk name="AirtelStub.apk" op="add">
+	<CountryISO>IN</CountryISO>
+        <SalesCode>INS,INU</SalesCode>
+        <OmcCountryISO>IN</OmcCountryISO>
+
+    </PreloadApk>   
+
+	<!-- Adding UltraDataSaving_O for : IN -->  
+	 <PreloadApk name="UltraDataSaving_O.apk" op="add">
+	    <SalesCode>INS,INU,NPL,SLK,BNG,BKD,ARO,BVO,CHO,CHP,CHQ,CHK,DOO,EON,GTO,MXO,OCR,TPA,TTT,UPO,UYO,ZTO,XSP,SIN,MM1,STH,XTC,SMA,GLB,XTE,XME,THL,XXV,XEV,XSE,CAM,LAO,MYM,XID,TRM,AIS,BVV</SalesCode>
+        <CountryISO>IN,BD,NP,LK</CountryISO>
+    </PreloadApk>
+    
+    <!-- Adding UltraDataSaving_P for : IN -->  
+	 <PreloadApk name="UltraDataSaving_P.apk" op="add">
+	    <SalesCode>ARO,BVO,CHO,CHP,CHQ,CHK,DOO,EON,GTO,MXO,OCR,TPA,TTT,UPO,UYO,ZTO,BVV</SalesCode>
+    </PreloadApk>
+	
+	<!-- MemorySaver_O_Refresh -->
+    <PreloadApk name="MemorySaver_O_Refresh.apk" op="add">
+        <CountryISO>IN,BD,NL,SK</CountryISO>
+        <OmcCountryISO>IN,BD,NL,SK</OmcCountryISO>
+    </PreloadApk>
+
+    <!-- DT Global -->
+    <PreloadApk name="CombinedStarterAll_T25-6.9.7.3-build_3224-Release-signed-aligned-pd.apk" op="remove">
+        <SalesCode>DPL</SalesCode>
+    </PreloadApk>
+	
+	<!-- Helo for India market -->	
+    <PreloadApk name="Helo.apk" op="add">
+        <SalesCode>INS</SalesCode>
+        <OmcCode>INS</OmcCode>
+    </PreloadApk>
+	<!-- Dailyhunt for India market -->	
+    <PreloadApk name="Dailyhunt.apk" op="add">
+        <SalesCode>INS</SalesCode>
+        <OmcCode>INS</OmcCode>
+    </PreloadApk>
+	<!-- Booking_SWA for India market -->	
+    <PreloadApk name="Booking_SWA.apk" op="add">
+        <SalesCode>INS</SalesCode>
+        <OmcCode>INS</OmcCode>
+    </PreloadApk>
+	<!-- Amazon_Shopping.apk for India market -->	
+    <PreloadApk name="Amazon_Shopping.apk" op="add">
+        <SalesCode>INS</SalesCode>
+        <OmcCode>INS</OmcCode>
+    </PreloadApk>
+	
+	<!-- Ironsource for India market -->	
+    <PreloadApk name="appcloud_oobe.apk" op="add">
+        <SalesCode>INS</SalesCode>
+        <OmcCode>INS</OmcCode>
+    </PreloadApk>
+	<!-- Snapchat for India market -->	
+    <PreloadApk name="Snapchat.apk" op="add">
+        <SalesCode>INS</SalesCode>
+        <OmcCode>INS</OmcCode>
+    </PreloadApk>
+
+
+	<!-- Adding LogWriter for : IN -->
+    <PreloadApk name="LogWriter.apk" op="add">
+        <SalesCode>INS</SalesCode>
+        <OmcCode>INS</OmcCode>
+    </PreloadApk>
+	
+	<PreloadApk name="EweMBMSServer_VZW.apk" op="add">
+        <SalesCode>VZW</SalesCode>
+    </PreloadApk>
+	
+    <!-- DT language-->
+    <SipDb>
+		<OXM>english_us,english,russian,ukrainian,azebaijani,armenian,kazakh,uzbek,kyrgyz,tajik,turkmen,belarus,turkish,french,german,italian,polish,silesian,mongolian,chinese_singapore,bahasa malaysia,vietnamese,thai,indonesia,korean,filipino,basa jawa,basa sunda,lao,khmer,myanmar_zawgyi,myanmar,french,portuguese</OXM>
+    </SipDb>
+	
+    <!-- Samsung Pay QR -->
+    <PreloadApk name="QRAgent.apk" op="remove">
+        <SalesCode>XID,AIS,CAM,LAO,GLB,MM1,MYM,SIN,SMA,STH,THL,TRM,XME,XSP,XTC,XXV,NZC,TNZ,VNX,VNZ,XNF,XNZ,PNG,VFJ</SalesCode>
+        <OmcCode>XID,AIS,CAM,LAO,GLB,MM1,MYM,SIN,SMA,STH,THL,TRM,XME,XSP,XTC,XXV,NZC,TNZ,VNX,VNZ,XNF,XNZ,PNG,VFJ</OmcCode>
+    </PreloadApk>	
+     
+	<!-- MyGalaxyStories2.0 -->
+    <PreloadApk name="KeyguardMGSUpdator.apk" op="add">
+        <CountryISO>IN</CountryISO>
+        <SalesCode>INS,INU</SalesCode>
+        <OmcCountryISO>IN</OmcCountryISO>
+    </PreloadApk>
+
+    <!-- OXJ  Preloaded apk -->
+    <PreloadApk name="4591_MyApps-1.4.2-logoff-obson-prodMyAppsRelease_2019-01-04_17-52-49.apk" op="add">
+        <SalesCode>MEO,SFR</SalesCode>
+    </PreloadApk>
+	<PreloadApk name="4579_SFRJeux-7.1.1-logoff-obson-release_2018-12-12_17-21-53.apk" op="add">
+        <SalesCode>SFR</SalesCode>
+    </PreloadApk>
+    <!-- end of OXJ Preloaded apk -->
+
+    <!-- CmcService -->
+    <PreloadApk name="MdecServ.apk" op="remove">
+    	<SalesCode>VZW,ATT,SER,XFV,XFA,XFE,TUR</SalesCode>
+    </PreloadApk>
+	
+	<!-- CHE -->
+    <!-- CHE Notification -->
+    <PreloadApk name="che_notification_6.apk" op="add">
+    <PackageName>com.sec.android.app.latin.notification</PackageName>
+        <SalesCode>CHE</SalesCode>
+    </PreloadApk>
+	<!-- Instagram -->
+    <PreloadApk name="instagram-stub_45-1-22.apk" op="add">
+        <SalesCode>CHE</SalesCode>        
+    </PreloadApk>
+	<!-- Messenger -->
+    <PreloadApk name="messenger-stub_45-1-22.apk" op="add">
+        <SalesCode>CHE</SalesCode>        
+    </PreloadApk>	
+
+    <!-- FM Radio -->
+    <PreloadApk name="HybridRadio_P.apk" op="remove">
+        <SalesCode>DOO</SalesCode>
+    </PreloadApk>
+	
+	<!-- app-samsungemeaSamsung-1.0.68.22(503)-release APK -->
+    <PreloadApk name="app-samsungemeaSamsung-1.0.68.22(503)-release.apk" op="add">
+        <SalesCode>ACR,AFR,DKR,ECT,SRR,XFA,XFE</SalesCode>
+		<OmcCode>ACR,AFR,DKR,ECT,SRR,XFA,XFE</OmcCode>
+    </PreloadApk>
+    <!-- end of app-samsungemeaSamsung-1.0.68.22(503)-release APK -->
+	
+	<!--  Ignite-samsungSamsungAgent_5.7.094-4880_release APK -->
+    <PreloadApk name="Ignite-samsungSamsungAgent_5.7.094-4880_release.apk" op="add">
+        <SalesCode>XSG,TUR,MID,KSA,EGY,ILO,PAK,AFG,MWD,FWD,TKD,TUN,BTC,LYS</SalesCode>
+		<OmcCode>XSG,TUR,MID,KSA,EGY,ILO,PAK,AFG,MWD,FWD,TKD,TUN,BTC,LYS</OmcCode>
+    </PreloadApk>
+    <!-- end of Ignite-samsungSamsungAgent_5.7.094-4880_release APK -->
+	
+	<!-- Aura -->
+    <PreloadApk name="appcloud_oobe_samsungGlobal-release_V3.15.5.3.apk" op="add">
+        <SalesCode>SER,CAU,SKZ,CAC,SEK</SalesCode>
+		<OmcCode>SER,CAU,SKZ,CAC,SEK</OmcCode>
+    </PreloadApk>
+</CountryCustApk>
